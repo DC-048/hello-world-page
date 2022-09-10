@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="intro">
+        <h1 id="title">Hello, world!</h1>
+        <h2>The iconic line of text</h2>
+        <figure id="img-div">
+          <img
+            id="image"
+            src="https://vscode.ru/wp-content/uploads/2017/11/hello-world.jpg"
+            alt="Hello world command"
+          />
+          <figcaption id="img-caption">Hello, world!</figcaption>
+        </figure>
+        <p>
+          A "Hello, world!" program is generally a computer program that outputs
+          or displays the message "Hello, world!".
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+            target="_blank"
+            >A small piece of code</a
+          >
+          in most general-purpose programming languages, this program is used to
+          illustrate a language's basic syntax.
+        </p>
+      </div>
+
+      <section class="samples">
+        <div class="sample">
+          <h3>Java</h3>
+          <p>
+            <a href="https://www.java.com/en/">Java</a> is a high-level,
+            class-based, object-oriented programming language that is designed
+            to have as few implementation dependencies as possible.
+          </p>
+          <pre>
+public class Main {
+public static void main(String[] args) {
+  System.out.println(<span class="red">"Hello, World!"</span>);
+  }
+}</pre>
+        </div>
+
+        <div class="sample">
+          <h3>JavaScript</h3>
+          <p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              >JavaScript</a
+            >, often abbreviated JS, is a programming language that is one of
+            the core technologies of the World Wide Web, alongside HTML and CSS.
+          </p>
+          <p class="short-intro">For browser console:</p>
+          <pre>console.log(<span class="red">"Hello, World!"</span>);</pre>
+          <p class="short-intro">For HTML document:</p>
+          <pre>document.write(<span class="red">"Hello, World!"</span>);</pre>
+          <p class="short-intro">Alert:</p>
+          <pre>alert(<span class="red">"Hello, World!"</span>);</pre>
+        </div>
+
+        <div class="sample">
+          <h3>Pascal</h3>
+          <p>
+            <a href="https://www.freepascal.org/">Pascal</a> is an imperative
+            and procedural programming language, designed by Niklaus Wirth as a
+            small, efficient language intended to encourage good programming
+            practices using structured programming and data structuring.
+          </p>
+          <pre>
+program Hello;
+begin
+  writeln (<span class="red">'Hello, World!'</span>);
+end.</pre>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        This page was created as part of the
+        <a href="https://www.freecodecamp.org/">freeCodeCamp</a> course.
+      </p>
+      <p>
+        <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+          >Wikipedia</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

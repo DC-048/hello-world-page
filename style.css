@@ -1,0 +1,134 @@
+:root {
+  --pink: #f82572;
+  --green: #a5e02d;
+  --background-main: #191a16;
+  --background-sample: #32332e;
+  --text-white: #f8f8f8;
+}
+
+/* GENERAL LAYOUT */
+
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--background-main);
+  color: var(--text-white);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+  min-width: 500px;
+}
+
+/* HEADINGS */
+
+.intro h1,
+.intro h2 {
+  text-align: center;
+  margin: 32px;
+}
+
+.intro h1 {
+  font-size: 48px;
+  line-height: normal;
+}
+
+.sample h3 {
+  font-size: 32px;
+  margin: 0px;
+  line-height: normal;
+}
+
+/* IMAGE */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  padding: 8px;
+  font-size: 12px;
+}
+
+/* TYPOGRAPHY */
+
+p {
+  padding: 16px 0;
+  margin: 0;
+}
+
+.short-intro {
+  padding-top: 16px;
+  padding-bottom: 2px;
+  margin: 0;
+}
+
+pre {
+  font-size: 14px;
+}
+
+.red {
+  color: var(--pink);
+}
+
+/* LINKS */
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--pink);
+}
+
+/* SAMPLES SECTION */
+
+.samples {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 32px 0;
+}
+
+/* CODE BLOCK */
+
+.sample pre {
+  width: 100%;
+  background-color: var(--background-sample);
+  color: var(--green);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 8px auto;
+  box-sizing: border-box;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #afafaf;
+  gap: 12px;
+  padding: 2rem 0;
+}
+
+footer * {
+  margin: 0;
+  padding: 0;
+}
